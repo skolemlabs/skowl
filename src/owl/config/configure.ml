@@ -91,7 +91,6 @@ let default_cflags =
     ; (* FIXME: experimental switches *)
       (* "-mavx2"; "-mfma"; "-ffp-contract=fast"; *)
       (* Experimental switches, -ffast-math may break IEEE754 semantics*)
-      "-march=native"
     ; "-mfpmath=sse"
     ; "-funroll-loops"
     ; "-ffast-math"
